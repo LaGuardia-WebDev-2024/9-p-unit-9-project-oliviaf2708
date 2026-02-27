@@ -12,30 +12,33 @@ draw = function(){
   triangle(200, 104, 280, 280, 120, 280);
   fill(255, 255, 255);
   
+
+
+  // When asking for Answers 
   if (answer == 1) {
-    text("OH", 183, 200);
-    text("TOTALLY", 172, 229); 
+    text("OH", 190, 200);
+    text("TOTALLY", 176, 229); 
   }
 
   if (answer == 2){
-    text("I DONT THINK", 183, 200);
-    text("YOU WANNA KNOW", 172, 229)
+    text("I DONT THINK", 160, 220);
+    text("YOU WANNA KNOW", 143, 250)
   }
 
   if (answer == 3){
-    text("IDK BABE", 183, 200);
-    text("FIGURE IT OUT", 172, 229)
+    text("IDK BABE", 173, 200);
+    text("FIGURE IT OUT", 157, 229)
   }
 
   if (answer == 4){
-    text("THROW SOME", 183, 200);
-    text("SALT OVER YOUR", 172, 229)
-    text("SHOULDER JUST IN CASE", 169, 258)
+    text("THROW SOME", 159, 209);
+    text("SALT OVER YOUR", 148, 236)
+    text("SHOULDER IN CASE", 141, 265)
   }
 
   if (answer == 5){
-    text("LIKE", 183, 200);
-    text("PROBABLY", 172, 229)
+    text("LIKE", 187, 200);
+    text("PROBABLY", 168, 229)
   }
 
   if (answer == 6){
@@ -44,18 +47,18 @@ draw = function(){
   }
 
   if (answer == 7){
-    text("I SUPPORT", 183, 200);
-    text("YOUR DELUSIONS", 172, 229)
+    text("I SUPPORT", 169, 218);
+    text("YOUR DELUSIONS", 147, 247)
   }
 
   if (answer == 8){
-    text("DOES THIS", 183, 200);
-    text("REALLY MATTER", 172, 229)
+    text("DOES THIS", 168, 211);
+    text("REALLY MATTER", 152, 240)
   }
   
   if (answer == 9){
-    text("YEAH SORRY", 183, 200);
-    text("FOR YOUR LOSS", 172, 229)
+    text("YEAH NAH", 169, 200);
+    text("...SORRY", 172, 229)
   }
 
 
