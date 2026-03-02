@@ -4,15 +4,15 @@ setup = function() {
 
 var answer = 1;
 
+// Magic 8 Ball
 draw = function(){
   background(100,100,100);
-  fill(0, 0, 0);
+  fill(189, 36, 122);
   ellipse(200, 200, 375, 375);
-  fill(60, 0, 255);
+  fill(245, 223, 235);
   triangle(200, 104, 280, 280, 120, 280);
-  fill(255, 255, 255);
+  fill(0, 0, 0);
   
-
 
   // When asking for Answers 
   if (answer == 1) {
@@ -61,12 +61,20 @@ draw = function(){
     text("...SORRY", 172, 229)
   }
 
+  // While the magic 8 ball is deciding 
+  if(mousePressed){
+  textSize(30)
+  text("🤨", random(-100, 600), random(-100, 500))
+}
+
 
 };
 
 mouseClicked = function(){
   answer = round(random(1, 9));
 };
+
+
 
 
 
