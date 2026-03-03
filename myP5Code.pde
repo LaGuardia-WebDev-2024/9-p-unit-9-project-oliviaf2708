@@ -9,6 +9,7 @@ draw = function(){
   background(100,100,100);
   fill(189, 36, 122);
 
+// To change the 8 Ball color 
 if (keyPressed){
   if(key == 'c'){
     fill(random(0, 225), random(0, 225), random(0, 225));
