@@ -8,6 +8,13 @@ var answer = 1;
 draw = function(){
   background(100,100,100);
   fill(189, 36, 122);
+
+if (keyPressed){
+  if(key == 'c'){
+    fill(random(0, 225), random(0, 225), random(0, 225));
+  }
+}
+
   ellipse(200, 200, 375, 375);
   fill(245, 223, 235);
   triangle(200, 104, 280, 280, 120, 280);
@@ -66,6 +73,7 @@ draw = function(){
   textSize(30)
   text("🤨", random(-100, 600), random(-100, 500))
 }
+
 
 
 };

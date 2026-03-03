@@ -14,6 +14,10 @@ h1{
   color: rgb(240, 192, 237);
 }
 
+h2{
+  color: rgb(236, 206, 234);
+}
+
 #myCanvas {
   background-size: 600px 400px;
   border-radius: 30px;
